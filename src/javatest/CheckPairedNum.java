@@ -14,7 +14,6 @@ public class CheckPairedNum {
 		int result = 0;
 		int arryLen = arry.length;
 		if (arryLen == 0 || n == 0) {
-			System.out.println("Arry is empty or result is zero: " + result); 
 			return result;
 				}
 		for (int i = 0; i < arryLen; i++) {
@@ -23,14 +22,12 @@ public class CheckPairedNum {
 				if (i + j == n) {
 					if (arry[i] + arry[j] == n) {
 						result = 1;
-						System.out.println("this is " +arry[i]+ " value i is: "+ i + " and this is " + arry[j] + " value j is: " + j);
 						return result;
 					}
 				}
 				
 			}
 		}
-		System.out.println("this is the result: " + result);
 		return result;
 	}
 }
