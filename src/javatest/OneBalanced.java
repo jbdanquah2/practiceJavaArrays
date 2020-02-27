@@ -14,6 +14,7 @@ public class OneBalanced {
 		
 		if (len == 0 ) { // if array has no members	
 			result = 1;
+			System.out.print("mid"+ result);
 			return result;
 		}
 		
@@ -28,7 +29,7 @@ public class OneBalanced {
 			}
 		}
 		
-		
+		System.out.print("Last" + result);
 		return result;
 	}
 }

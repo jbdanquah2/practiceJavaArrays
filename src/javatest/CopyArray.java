@@ -19,7 +19,7 @@ public class CopyArray {
 			newArry[j] = arry[i];
 		}
 		
-		System.out.println(Arrays.toString(arry));
+		// System.out.println(Arrays.toString(arry));
 		System.out.println(Arrays.toString(newArry));
 		return 1;
 	}

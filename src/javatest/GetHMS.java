@@ -6,7 +6,7 @@ public class GetHMS {
 	public static void main(String[] args) {
 		
 		GetHMS getHms = new GetHMS();
-		getHms.computeHMS(0);
+		getHms.computeHMS(3650);
 	}
 	
 	public int[] computeHMS(int seconds) {

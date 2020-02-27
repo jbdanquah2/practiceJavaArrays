@@ -4,7 +4,7 @@ public class AllEven {
 	
 	public static void main(String[] args) {
 		AllEven check = new AllEven();
-		int[] arry = {8, 21, 8};
+		int[] arry = {8, 10, 8};
 		check.allEven(arry, 3);
 	}
 	
@@ -14,7 +14,7 @@ public class AllEven {
 		for (int i = 0; i < len; i++) {
 			if (arry[i] % 2 != 0) {
 				result = 0;
-				System.out.println("This issss: " +result);
+				System.out.println("This issss: " + result);
 				return result;
 				
 			}

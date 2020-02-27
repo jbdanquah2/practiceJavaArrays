@@ -3,13 +3,14 @@ package javatest;
 public class Array235 {
 
 	public static void main(String[] args) {
-		int[] arry = {7, 2, 7, 2, 7, 2, 7, 2, 3, 7, 7};
+		int[] arry = {2, 3,5};
 		Array235 arr = new Array235();
 		arr.is235Array(arry);
 		
 	}
 	
 	public int is235Array(int[] arry) {
+		int result = 0;
 		int count2 = 0;
 		int count3 = 0;
 		int count5 = 0;
@@ -25,11 +26,13 @@ public class Array235 {
 		
 		if ((count2 + count3 + count5 + countNone) == len) {
 			System.out.println("Yes " + (count2 + count3 + count5 + countNone) + " and array length is: " + len);
-			return 1;
+			result = 1;
+		}else {
+			System.out.println("nope... not not:.. " + (count2 + count3 + count5 + countNone) + " and array length is: " + len);
+			//result = 0;
 		}
 		
-		System.out.println("nope... not not:.. " + (count2 + count3 + count5 + countNone) + " and array length is: " + len);
-
-		return 0;
+		System.out.print(result);
+		return result;
 	}
 }

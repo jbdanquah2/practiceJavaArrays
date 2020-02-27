@@ -1,16 +1,14 @@
 package javatest;
 //import java.util.*;
 
-public class checkPairedN {
-	
-	
-	public static void main(String args) {
-		int[] arry = {1, 4, 1, 4, 5, 6};
-		checkPairedN pn = new checkPairedN();
-		pn.isPaired(arry, 5);
+public class CheckPairedN {
+		
+	public static void main(String[] args) {
+		int[] arry = {10, 4, 2, 4, 8, 6};
+		isPaired(arry, 5);
 	}
 	
-	public int isPaired(int arry[], int n) {
+	static int isPaired(int arry[], int n) {
 		int result = 0;
 		int arryLen = arry.length;
 		if (arryLen == 0) return 0;

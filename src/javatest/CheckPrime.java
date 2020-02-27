@@ -7,13 +7,16 @@ package javatest;
 	    
 	    public static void main(String[] args) {
 	// TODO code application logic here
-	        Scanner input = new Scanner(System.in);
-
-	        System.out.println("Enter a number ");
-	        int Number = input.nextInt();
-	        int result = findPorcupineNumber(Number);
-	        System.out.println("The Porcupine number is: " + result);
+//	        Scanner input = new Scanner(System.in);
+//
+//	        System.out.println("Enter a number ");
+//	        int Number = input.nextInt();
+//	        int result = findPorcupineNumber(Number);
+//	        System.out.println("The Porcupine number is: " + result);
+	    	
+	    	isPrime(2);
 	    }
+	    
 
 	    public static int findPorcupineNumber(int number) {
 	        int porcupineNumber = 0;
@@ -53,6 +56,7 @@ package javatest;
 	                }
 	            }
 	        }
+	        System.out.print(isPrime);
 	        return isPrime;
 	    }
 	}
